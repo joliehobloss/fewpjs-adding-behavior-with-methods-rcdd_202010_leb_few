@@ -5,7 +5,6 @@ class Cat{
     this.sex = sex;
   } 
     speak() {
-    let cat = new Cat("Sasha", "female");
     return cat.name + " says meow!";
   }
 }
@@ -19,7 +18,6 @@ class Dog{
   }
   
    speak() {
-    let dog = new Dog("Rufio", "male");
     return dog.name + " says woof!";
   }
 }
