@@ -28,7 +28,7 @@ class Bird{
     this.sex = sex;
   }
   
-  speak() {
+    speak() {
     if(this.sex==="male"){
     return `It's me! ${this.name}, the parrot!`;
   }else{
@@ -36,6 +36,16 @@ class Bird{
   }
 }
 }
+
+let cat = new Cat("Sasha", "female");
+cat.speak();
+let dog = new Dog("Rufio", "male");
+Dog.speak();
+
+let bird = new Bird("Pablo", "male")
+let bird2 = new Bird("Mable", "female")
+Bird.speak();
+bird2.speak();
 
 
 
